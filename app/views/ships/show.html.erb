@@ -1,0 +1,8 @@
+<div class="container">
+  <h1>Ship Logs</h1>
+  <p><%= @ship.name %></p>
+  <p>Passengers count : <%= @ship.passengers_count %></p>
+  <% @ship.logs.each do |log| %>
+    <p><%= log.log_data %></p>
+  <% end %>
+</div>
