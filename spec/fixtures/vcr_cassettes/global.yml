@@ -300,4 +300,454 @@ http_interactions:
       encoding: UTF-8
       string: '{"status":"processed"}'
   recorded_at: Sat, 31 Jul 2021 08:43:39 GMT
+- request:
+    method: get
+    uri: http://localhost:3002/api/v1/processing_ships/new?created_at=2021-07-31T08:46:54.015Z&id=27&name=Oneida%20Smith&origin=Hettinger%20and%20Sons&passengers_count=7&status=queue&updated_at=2021-07-31T08:46:54.015Z
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - localhost:3002
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Etag:
+      - W/"d4e936f90825bb2c34aeb7962e251963"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 1b372051-6151-4acd-9aae-1d667b31d894
+      X-Runtime:
+      - '20.012402'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"status":"processed"}'
+  recorded_at: Sat, 31 Jul 2021 08:47:14 GMT
+- request:
+    method: get
+    uri: http://localhost:3002/api/v1/processing_ships/new?created_at=2021-07-31T08:47:33.847Z&id=30&name=Douglass%20Weber&origin=Hickle-Price&passengers_count=1&status=queue&updated_at=2021-07-31T08:47:33.847Z
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - localhost:3002
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Etag:
+      - W/"d4e936f90825bb2c34aeb7962e251963"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - ae546687-0018-4fc4-8dbe-baef921aa6aa
+      X-Runtime:
+      - '20.002197'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"status":"processed"}'
+  recorded_at: Sat, 31 Jul 2021 08:47:53 GMT
+- request:
+    method: get
+    uri: http://localhost:3002/api/v1/processing_ships/new?created_at=2021-07-31T08:48:14.748Z&id=33&name=Leon%20Langworth&origin=Mohr-Waters&passengers_count=9&status=queue&updated_at=2021-07-31T08:48:14.748Z
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - localhost:3002
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Etag:
+      - W/"d4e936f90825bb2c34aeb7962e251963"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 1cefd252-5c8b-4058-927c-c25232c45d5f
+      X-Runtime:
+      - '20.003096'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"status":"processed"}'
+  recorded_at: Sat, 31 Jul 2021 08:48:34 GMT
+- request:
+    method: get
+    uri: http://localhost:3002/api/v1/processing_ships/new?created_at=2021-07-31T08:54:29.525Z&id=36&name=Rep.%20Arianne%20Bauch&origin=Satterfield%20Inc&passengers_count=5&status=queue&updated_at=2021-07-31T08:54:29.525Z
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - localhost:3002
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Etag:
+      - W/"d4e936f90825bb2c34aeb7962e251963"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - fef8ff59-a4ce-4393-8928-5299cc3be461
+      X-Runtime:
+      - '20.004512'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"status":"processed"}'
+  recorded_at: Sat, 31 Jul 2021 08:54:49 GMT
+- request:
+    method: get
+    uri: http://localhost:3002/api/v1/processing_ships/new?created_at=2021-07-31T08:56:06.341Z&id=39&name=Sen.%20Jacob%20Nader&origin=Feil-Price&passengers_count=3&status=queue&updated_at=2021-07-31T08:56:06.341Z
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - localhost:3002
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Etag:
+      - W/"d4e936f90825bb2c34aeb7962e251963"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - '042085aa-325d-4b02-86c2-73c87b3aff28'
+      X-Runtime:
+      - '20.004031'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"status":"processed"}'
+  recorded_at: Sat, 31 Jul 2021 08:56:26 GMT
+- request:
+    method: get
+    uri: http://localhost:3002/api/v1/processing_ships/new?created_at=2021-07-31T09:25:49.365Z&id=223&name=Laurence%20Rodriguez&origin=Schoen,%20Kshlerin%20and%20Kassulke&passengers_count=9&status=queue&updated_at=2021-07-31T09:25:49.365Z
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - localhost:3002
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Etag:
+      - W/"d4e936f90825bb2c34aeb7962e251963"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 173ee89b-a9e8-44f8-93c0-53ace3497445
+      X-Runtime:
+      - '20.017397'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"status":"processed"}'
+  recorded_at: Sat, 31 Jul 2021 09:26:09 GMT
+- request:
+    method: get
+    uri: http://localhost:3002/api/v1/processing_ships/new?created_at=2021-07-31T09:26:30.924Z&id=235&name=Joe%20Vandervort&origin=Jast-Barrows&passengers_count=8&status=queue&updated_at=2021-07-31T09:26:30.924Z
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - localhost:3002
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Etag:
+      - W/"d4e936f90825bb2c34aeb7962e251963"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 81459124-2915-4b5e-96c3-ae11cdcf73a9
+      X-Runtime:
+      - '20.013904'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"status":"processed"}'
+  recorded_at: Sat, 31 Jul 2021 09:26:50 GMT
+- request:
+    method: get
+    uri: http://localhost:3002/api/v1/processing_ships/new?created_at=2021-07-31T09:39:52.677Z&id=251&name=Mr.%20Jason%20Stokes&origin=Renner-Predovic&passengers_count=5&status=queue&updated_at=2021-07-31T09:39:52.677Z
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - localhost:3002
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Etag:
+      - W/"d4e936f90825bb2c34aeb7962e251963"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 6497719c-0a3e-4c79-bc9f-f668285e9519
+      X-Runtime:
+      - '20.004123'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"status":"processed"}'
+  recorded_at: Sat, 31 Jul 2021 09:40:12 GMT
+- request:
+    method: get
+    uri: http://localhost:3002/api/v1/processing_ships/new?created_at=2021-07-31T09:44:55.033Z&id=264&name=Mr.%20Hector%20Kessler&origin=Nolan%20and%20Sons&passengers_count=7&status=queue&updated_at=2021-07-31T09:44:55.033Z
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - localhost:3002
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Etag:
+      - W/"d4e936f90825bb2c34aeb7962e251963"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 1ab7b99a-9c30-4c08-be1a-0d4728eac73d
+      X-Runtime:
+      - '20.003579'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"status":"processed"}'
+  recorded_at: Sat, 31 Jul 2021 09:45:15 GMT
 recorded_with: VCR 6.0.0

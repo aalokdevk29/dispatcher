@@ -1,8 +1,8 @@
 require 'rails_helper'
 
-RSpec.describe GetShipsJob, type: :job do
-  describe "#perform" do
-    it "creates new ship" do
+RSpec.describe ProcessShipsJob, type: :job do
+  describe '#perform' do
+    it 'creates new ship' do
       ActiveJob::Base.queue_adapter = :test
       expect {
         described_class.perform_now
