@@ -1,3 +1,13 @@
+GIT
+  remote: https://github.com/bblimke/webmock
+  revision: a3e1c2c6f1257634c05a38c6832fd0e4c0bae853
+  branch: master
+  specs:
+    webmock (3.13.0)
+      addressable (>= 2.3.6)
+      crack (>= 0.3.2)
+      hashdiff (>= 0.4.0, < 2.0.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -84,6 +94,8 @@ GEM
     childprocess (3.0.0)
     chronic (0.10.2)
     concurrent-ruby (1.1.9)
+    crack (0.4.5)
+      rexml
     crass (1.0.6)
     devise (4.8.0)
       bcrypt (~> 3.0)
@@ -104,6 +116,7 @@ GEM
     ffi (1.15.3)
     globalid (0.5.1)
       activesupport (>= 5.0)
+    hashdiff (1.0.1)
     i18n (1.8.10)
       concurrent-ruby (~> 1.0)
     jbuilder (2.11.2)
@@ -221,6 +234,7 @@ GEM
     turbolinks-source (5.2.0)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
+    vcr (6.0.0)
     warden (1.2.9)
       rack (>= 2.0.9)
     web-console (4.1.0)
@@ -272,8 +286,10 @@ DEPENDENCIES
   spring
   turbolinks (~> 5)
   tzinfo-data
+  vcr
   web-console (>= 4.1.0)
   webdrivers
+  webmock!
   webpacker (~> 5.0)
   whenever (~> 1.0)
 

@@ -1,0 +1,303 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost:3001/api/v1/create_ships/new
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - localhost:3001
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Etag:
+      - W/"c0583643701823498981651fa637e8c6"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - c658fffd-0896-454d-b0e2-ecc8fc5011a0
+      X-Runtime:
+      - '0.001808'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"name":"Stephen Farrell Jr.","origin":"Reinger-Corwin","passenger_count":9,"status":"arrived"}'
+  recorded_at: Sat, 31 Jul 2021 08:19:53 GMT
+- request:
+    method: get
+    uri: http://localhost:3002/api/v1/processing_ships/new?created_at=2021-07-31T08:37:40.496Z&id=16&name=Eleni%20Ferry&origin=Bailey,%20McClure%20and%20Wehner&passengers_count=10&status=queue&updated_at=2021-07-31T08:37:40.496Z
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - localhost:3002
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Etag:
+      - W/"d4e936f90825bb2c34aeb7962e251963"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - b4d1b8bb-048a-48e6-ab42-8358f7a14481
+      X-Runtime:
+      - '20.074470'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"status":"processed"}'
+  recorded_at: Sat, 31 Jul 2021 08:38:02 GMT
+- request:
+    method: get
+    uri: http://localhost:3002/api/v1/processing_ships/new?created_at=2021-07-31T08:39:14.013Z&id=17&name=Leland%20Larson%20I&origin=Sporer,%20Abbott%20and%20Kassulke&passengers_count=1&status=queue&updated_at=2021-07-31T08:39:14.013Z
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - localhost:3002
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Etag:
+      - W/"d4e936f90825bb2c34aeb7962e251963"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 42e9dc0e-3ccb-419a-a72b-5784610cefc5
+      X-Runtime:
+      - '20.003702'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"status":"processed"}'
+  recorded_at: Sat, 31 Jul 2021 08:39:34 GMT
+- request:
+    method: get
+    uri: http://localhost:3002/api/v1/processing_ships/new?created_at=2021-07-31T08:39:58.184Z&id=18&name=Ali%20Von&origin=Lemke,%20Swift%20and%20Weissnat&passengers_count=9&status=queue&updated_at=2021-07-31T08:39:58.184Z
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - localhost:3002
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Etag:
+      - W/"d4e936f90825bb2c34aeb7962e251963"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 1b7dc4c1-2c99-43be-b5b0-0455ba287974
+      X-Runtime:
+      - '20.004316'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"status":"processed"}'
+  recorded_at: Sat, 31 Jul 2021 08:40:18 GMT
+- request:
+    method: get
+    uri: http://localhost:3002/api/v1/processing_ships/new?created_at=2021-07-31T08:40:37.364Z&id=19&name=Kendall%20Pfannerstill&origin=Runte-Breitenberg&passengers_count=5&status=queue&updated_at=2021-07-31T08:40:37.364Z
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - localhost:3002
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Etag:
+      - W/"d4e936f90825bb2c34aeb7962e251963"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - c14b1036-fec3-4d1e-ad86-a4b6954e25e1
+      X-Runtime:
+      - '20.003868'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"status":"processed"}'
+  recorded_at: Sat, 31 Jul 2021 08:40:57 GMT
+- request:
+    method: get
+    uri: http://localhost:3002/api/v1/processing_ships/new?created_at=2021-07-31T08:43:19.369Z&id=24&name=Sharell%20Gleason&origin=Barrows-Bradtke&passengers_count=3&status=queue&updated_at=2021-07-31T08:43:19.369Z
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - localhost:3002
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Etag:
+      - W/"d4e936f90825bb2c34aeb7962e251963"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 30692ad0-e097-41f2-a255-1dbf72178e30
+      X-Runtime:
+      - '20.003889'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"status":"processed"}'
+  recorded_at: Sat, 31 Jul 2021 08:43:39 GMT
+recorded_with: VCR 6.0.0
