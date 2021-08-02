@@ -1,5 +1,5 @@
 class ProcessShipsService
-  BASE_URL = 'http://localhost:3002/api/v1'.freeze
+  BASE_URL = 'https://pure-waters-74457.herokuapp.com/api/v1'.freeze
 
   def send
     ships_queue = Ship.queue

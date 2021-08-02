@@ -1,5 +1,5 @@
 class GetShipService
-  BASE_URL = 'http://localhost:3001/api/v1'.freeze
+  BASE_URL = 'https://secure-shore-28533.herokuapp.com/api/v1'.freeze
 
   def create
     uri = URI("#{BASE_URL}/create_ships/new")
