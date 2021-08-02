@@ -8,6 +8,8 @@ class ProcessShipsService
       response = process_ship_queue(ship)
       update_response(ship, JSON.parse(response))
     end
+  rescue StandardError => e
+    puts "Rescued: #{e.inspect}"
   end
 
   private

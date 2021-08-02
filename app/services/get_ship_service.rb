@@ -5,6 +5,8 @@ class GetShipService
     uri = URI("#{BASE_URL}/create_ships/new")
     response = Net::HTTP.get(uri)
     store_data(JSON.parse(response))
+  rescue StandardError => e
+    puts "Rescued: #{e.inspect}"
   end
 
   private
