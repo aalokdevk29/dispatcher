@@ -14,6 +14,7 @@ class GetShipService
       name: data['name'],
       origin: data['origin'],
       passengers_count: data['passenger_count'],
-      status: data['status'])
+      status: data['status']
+    )
   end
 end

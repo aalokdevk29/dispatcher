@@ -4,17 +4,17 @@ class ShipsController < ApplicationController
   end
 
   def show
-    @ship = get_ship
+    @ship = ship
   end
 
   def update_queue
-    get_ship.update(status: :queue)
-    redirect_to ships_path(get_ship)
+    ship.update(status: :queue)
+    redirect_to ships_path(ship)
   end
 
   def destroy
-    get_ship.destroy
-    redirect_to ships_path(get_ship)
+    ship.destroy
+    redirect_to ships_path(ship)
   end
 
   def ships_queue
@@ -23,7 +23,7 @@ class ShipsController < ApplicationController
 
   private
 
-  def get_ship
+  def ship
     Ship.find(params[:id])
   end
 end

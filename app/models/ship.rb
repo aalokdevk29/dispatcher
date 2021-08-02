@@ -11,7 +11,7 @@ class Ship < ApplicationRecord
   private
 
   def update_log
-    msg = "#{self.name} updated at #{Time.now}"
-    Log.create!(ship_id: self.id, log_data: msg)
+    msg = "#{name} updated at #{Time.now}"
+    Log.create!(ship_id: id, log_data: msg)
   end
 end
