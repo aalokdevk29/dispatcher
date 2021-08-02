@@ -1,31 +1,35 @@
 <div class="container">
-  <h1>Ships Arrived</h1>
-  <h2 class='queue-block'><%= link_to 'Ships In Queue', ships_queue_ships_path %></h2>
-  <table class="table">
-    <thead>
-      <tr>
-        <th>Ship ID</th>
-        <th>Ship name</th>
-        <th>Origin</th>
-        <th>Passengers</th>
-        <th>Status</th>
-        <th>View logs</th>
-        <th></th>
-      </tr>
-    </thead>
-    <tbody>
-      <% @ships.each do |ship| %>
+  <% if @ships.empty? %>
+    <h1>No Ships Arrived Yet!</h1>
+  <% else %>
+    <h1>Ships Arrived</h1>
+    <h2 class='queue-block'><%= link_to 'Ships In Queue', ships_queue_ships_path %></h2>
+    <table class="table">
+      <thead>
         <tr>
-          <td><%= ship.id %></td>
-          <td><%= ship.name %></td>
-          <td><%= ship.origin %></td>
-          <td><%= ship.passengers_count %></td>
-          <td><%= link_to ship.status, update_queue_ship_path(ship) %></td>
-          <td><%= link_to 'view logs', ship_path(ship)%></td>
-          <td><%= link_to 'delete', ship_path(ship), method: :delete,
-                  data: { confirm: "Are you sure?" } %></td>
+          <th>Ship ID</th>
+          <th>Ship name</th>
+          <th>Origin</th>
+          <th>Passengers</th>
+          <th>Status</th>
+          <th>View logs</th>
+          <th></th>
         </tr>
-      <% end %>
-    </tbody>
+      </thead>
+      <tbody>
+        <% @ships.each do |ship| %>
+          <tr>
+            <td><%= ship.id %></td>
+            <td><%= ship.name %></td>
+            <td><%= ship.origin %></td>
+            <td><%= ship.passengers_count %></td>
+            <td><%= link_to ship.status, update_queue_ship_path(ship), class: 'button' %></td>
+            <td><%= link_to 'view logs', ship_path(ship)%></td>
+            <td><%= link_to 'delete', ship_path(ship), method: :delete,
+                    data: { confirm: "Are you sure?" } %></td>
+          </tr>
+        <% end %>
+      </tbody>
+    <% end %>
   </table>
 </div>

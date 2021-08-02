@@ -19,4 +19,38 @@
 .queue-block {
   float: inline-end;
   margin-top: -45px;
+  background-color: #C2BFBF73;
+  padding: 10px 10px 5px;
+  font-size: 20px;
+  border-radius: 20px;
+
+  a{
+    color: black !important;
+  }
+}
+
+a.button {
+  background-color: #48CE4D; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width:70%;
+  text-transform: capitalize;
+}
+
+.back {
+  float: inline-end;
+  margin-top: -45px;
+  background-color: #C2BFBF73;
+  padding: 5px 10px 1px;
+  font-size: 15px;
+  border-radius: 20px;
+
+  a{
+    color: black !important;
+  }
 }

@@ -11,12 +11,12 @@ class ShipsController < ApplicationController
 
   def update_queue
     @ship.update(status: :queue)
-    redirect_to ships_path(@ship)
+    redirect_to ships_path
   end
 
   def destroy
     @ship.destroy
-    redirect_to ships_path(@ship)
+    redirect_to ships_path
   end
 
   def ships_queue
